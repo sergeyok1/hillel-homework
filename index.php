@@ -17,7 +17,7 @@
   <link rel="stylesheet" href="static/css/adminlte.min.css">
   <!-- overlayScrollbars -->
   <link rel="stylesheet" href="static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
-  <!-- custom kanban styles -->
+  <!-- custom kanban styles -->jhjkh
   <link rel="stylesheet" href="static/css/kanban.css">
 
 </head>
