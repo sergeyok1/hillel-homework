@@ -64,7 +64,7 @@
             <img src="static/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
           </div>
           <div class="info">
-            <a href="#" class="d-block">Володимир</a>
+            <a href="#" class="d-block"><?=$user?></a>
           </div>
         </div>
 
@@ -73,15 +73,7 @@
           <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
             <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
-            <li class="nav-item">
-              <a href="index.php" class="nav-link active">
-                <i class="nav-icon fas fa-columns"></i>
-                <p>
-                  Назва проекту
-                  <span class="badge badge-info right">2</span>
-                </p>
-              </a>
-            </li>
+            <?=$project;?>
               <li class="nav-item">
               <a href="index.php" class="nav-link">
                 <i class="nav-icon fas fa-plus"></i>
@@ -97,7 +89,8 @@
       <!-- /.sidebar -->
     </aside>
 
-   <?=$content;?>
+    <?=$content;?>
+	
     <footer class="main-footer">
       <div class="float-right d-none d-sm-block">
         <b>Version</b> 0.1.0
