@@ -35,9 +35,11 @@
                 Беклог
               </h3>
             </div>
-			
-			<?=$card;?>
-			
+			<div class="card-body connectedSortable" data-status="backlog">
+            <?=$card;?>
+ 
+            </div>
+						
             
 			
 			
